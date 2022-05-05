@@ -1,9 +1,9 @@
 
-AULALISTA: main.o listas.o
-	gcc main.o listas.o -o AULALISTA
+TRABALHO: main.o pilhas.o
+	gcc main.o pilhas.o -o TRABALHO
 
 main.o: main.c
 	gcc -c main.c
 
-listas.o: listas.c listas.h
-	gcc -c listas.c
+pilhas.o: pilhas.c pilhas.h
+	gcc -c pilhas.c
