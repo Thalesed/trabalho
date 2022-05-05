@@ -1,4 +1,4 @@
-#define N 500
+#define N 27
 
 typedef struct pilha_vet {
 	int n;
