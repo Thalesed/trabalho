@@ -51,10 +51,7 @@ int main(){
 			printf("R ");
 			pilha_vet_pop(pilhas);
 			i++;
-			//printf("\n%d %d\n", i, tam-2);
-			//printf("\n%d\n", (i < tam-2));
 		}
-		//printf("\n%d\n", pilhas->n);
 		
 	}
 	if(pilhas->n!= 0){
